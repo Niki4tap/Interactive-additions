@@ -9,7 +9,7 @@ class _clear_impl(type):
 		elif os == "Windows":
 			system("cls")
 		else:
-			raise NotImplemented()
+			raise NotImplementedError()
 		return ""
 
 class clear(metaclass=_clear_impl): pass
