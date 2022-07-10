@@ -13,3 +13,4 @@ class _clear_impl(type):
 		return ""
 
 class clear(metaclass=_clear_impl): pass
+
