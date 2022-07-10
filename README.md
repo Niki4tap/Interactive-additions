@@ -2,7 +2,9 @@
 Series of python modules that I wish were included in interactive python shell.
 
 Can be used as: `python -i -m interactive_additions`
+
 Or: `python -i -c "from interactive_additions import *"`
+
 Or just drop into a python repl and do: `from interactive_additions import *`
 
 ## clear
